@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+//Import de la font Google
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic);
+
+@import "function_mixin.scss";
+
+// Création d'une variable
+$turquoise : turquoise;
+
+h1{
+	color:$turquoise;
+}
+
+// Médias Queries génériques
+
+@media all and (max-width : 1024px) {}
+@media all and (max-width : 768px) {}
+@media all and (max-width : 680px) {}
